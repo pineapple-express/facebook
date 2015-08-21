@@ -1,4 +1,4 @@
-package facebook-poc;
+package com.bancvue.facebook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
