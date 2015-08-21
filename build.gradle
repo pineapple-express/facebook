@@ -30,11 +30,9 @@ repositories {
 
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    compile("org.springframework.boot:spring-boot-starter-jdbc")
-    compile("org.springframework.boot:spring-boot-starter-social-facebook")
-    runtime("com.h2database:h2")
-    testCompile("org.springframework.boot:spring-boot-starter-test")
+	compile 'com.restfb:restfb:1.14.0'
+	compile("org.springframework.boot:spring-boot-starter")
+	testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
 
